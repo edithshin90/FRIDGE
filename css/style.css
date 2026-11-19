@@ -92,6 +92,7 @@ body {
   box-shadow: 0 10px 22px rgba(79, 160, 132, 0.13);
 }
 .art-emoji { font-size: 38px; line-height: 1; filter: saturate(1.05); }
+.art-fridge { width: 40px; height: auto; display: block; filter: drop-shadow(0 3px 4px rgba(79, 160, 132, 0.16)); }
 .art-spark { position: absolute; font-size: 15px; opacity: .95; }
 .art-spark--1 { top: -8px; right: -10px; }
 .art-spark--2 { bottom: -6px; left: -12px; font-size: 13px; }
@@ -657,7 +658,7 @@ body {
 }
 .shop-progress .sp-text { font-size: 12px; color: #7C7565; white-space: nowrap; }
 .shop-progress .sp-text b { color: var(--mint-deep); }
-.bar { flex: 1; height: 7px; border-radius: 999px; background: #F1EADD; overflow: hidden; }
+.bar { flex: 1; height: 7px; border-radius: 999px; background: #ECE1CF; overflow: hidden; }
 .bar span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, #8FDCC0, #5BC7A6); transition: width .25s ease; }
 
 .shop-list { display: grid; gap: 8px; }
