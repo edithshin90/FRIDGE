@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T07:49:00+09:00",
+  "updatedAt": "2026-11-20T07:53:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -7,7 +7,7 @@
     {
       "id": "cold-fruit-01",
       "name": "샤인머스켓",
-      "qty": "1.5송이",
+      "qty": "1송이",
       "loc": "cold",
       "cat": "fruit",
       "emoji": "🍇",
@@ -79,7 +79,7 @@
     {
       "id": "cold-fruit-08",
       "name": "오나오 (오버나이트 오트밀)",
-      "qty": "2통",
+      "qty": "1통",
       "loc": "cold",
       "cat": "fruit",
       "emoji": "🥣",
@@ -614,7 +614,7 @@
     {
       "id": "frozen-19",
       "name": "백설기 소분",
-      "qty": "6덩이",
+      "qty": "4덩이",
       "loc": "frozen",
       "cat": "kids",
       "emoji": "🍡",
@@ -813,7 +813,7 @@
       "day": "금",
       "today": true,
       "pill": "오늘",
-      "breakfast": "오나오 · 호떡",
+      "breakfast": "오나오 · 백설기",
       "lunch": "기관·회사 식사",
       "dinner": "소고기 버섯 볶음",
       "lunchPass": true
