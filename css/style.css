@@ -52,7 +52,7 @@ body {
   min-height: 100vh;
   background: var(--cream);
   box-shadow: 0 0 40px rgba(120, 100, 70, 0.10);
-  overflow-x: hidden;
+  overflow-x: clip;
   padding-bottom: calc(28px + env(safe-area-inset-bottom));
 }
 
