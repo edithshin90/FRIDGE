@@ -31,4 +31,13 @@ data.json       ★ 재료·식단·장보기 전부 여기에
 
 ## 배포
 
-GitHub Pages, `main` 브랜치 루트를 그대로 올립니다. push 후 1~2분이면 반영됩니다.
+- 주소: https://edithshin90.github.io/FRIDGE/
+- GitHub Pages가 **`gh-pages` 브랜치 루트**를 보고 있습니다. 그래서 `data.json`을 고친 뒤에는 아래처럼 **main과 gh-pages 두 곳에 같이** 올려 주세요.
+
+```bash
+git add data.json && git commit -m "식단 업데이트"
+git push origin main main:gh-pages
+```
+
+- (선택) 저장소 Settings → Pages → Source를 `main` / `root`로 바꾸면 `git push origin main` 하나로 끝납니다.
+- push 후 1~2분이면 반영됩니다.
