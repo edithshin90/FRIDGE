@@ -239,7 +239,7 @@
       <article class="week-day${d.today ? ' is-today' : ''}">
         <div class="week-day-head">
           <span class="week-date">${esc((d.date || '').slice(5).replace('-', '/'))}<small>${esc(dayOf(d.date) || d.day || '')}요일</small></span>
-          ${d.today ? '<span class="today-pill">오늘</span>' : ''}
+          ${d.today || d.pill ? `<span class="today-pill">${esc(d.pill || '오늘')}</span>` : ''}
         </div>
         <div class="week-meals">
           <div class="week-row"><span class="wm-label">아침</span><span class="wm-text">${esc(d.breakfast || '')}</span></div>

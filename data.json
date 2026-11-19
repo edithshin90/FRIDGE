@@ -195,7 +195,7 @@
   },
 
   "weekPlan": [
-    { "date": "2026-11-20", "day": "금", "today": true, "breakfast": "오나오 · 호떡", "lunch": "곰국 떡국", "dinner": "소고기 버섯 볶음" },
+    { "date": "2026-11-20", "day": "금", "today": false, "pill": "내일", "breakfast": "오나오 · 호떡", "lunch": "곰국 떡국", "dinner": "소고기 버섯 볶음" },
     { "date": "2026-11-21", "day": "토", "today": false, "breakfast": "백설기 · 우유", "lunch": "대가고기짬뽕 (아이는 만두)", "dinner": "양념갈비 · 샐러드" },
     { "date": "2026-11-22", "day": "일", "today": false, "breakfast": "통밀 토스트 · 계란", "lunch": "한돈감자탕", "dinner": "대구스테이크 · 라이스드 베지터블" },
     { "date": "2026-11-23", "day": "월", "today": false, "breakfast": "오나오 · 귤", "lunch": "비비고만두 · 명란밥", "dinner": "고추장양념육 · 봄동" },
