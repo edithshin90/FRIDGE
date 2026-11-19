@@ -177,7 +177,19 @@
             <span class="mg-count" data-group-count="${esc(g.id)}">${eatenCount(g.cards)}/${(g.cards || []).length} 먹음</span>
           </div>
           ${(g.cards || []).map(mealCard).join('')}
-        </section>`).join('')}`;
+        </section>
+        ${plan.passNote && plan.passNote.after === g.id ? passCard(plan.passNote) : ''}`).join('')}`;
+  }
+
+  function passCard(p) {
+    return `
+      <div class="pass-card">
+        <span class="pass-ico" aria-hidden="true">${esc(p.icon || '🏫')}</span>
+        <div>
+          <b>${esc(p.title || '')}</b>
+          <p>${esc(p.text || '')}</p>
+        </div>
+      </div>`;
   }
 
   function eatenCount(cards) {
@@ -243,13 +255,13 @@
         </div>
         <div class="week-meals">
           <div class="week-row"><span class="wm-label">아침</span><span class="wm-text">${esc(d.breakfast || '')}</span></div>
-          <div class="week-row"><span class="wm-label">점심</span><span class="wm-text">${esc(d.lunch || '')}</span></div>
+          <div class="week-row${d.lunchPass ? ' week-row--pass' : ''}"><span class="wm-label">점심</span><span class="wm-text">${d.lunchPass ? '🏫 ' : ''}${esc(d.lunch || '')}</span></div>
           <div class="week-row"><span class="wm-label">저녁</span><span class="wm-text">${esc(d.dinner || '')}</span></div>
         </div>
       </article>`).join('');
 
     return `<div class="panel-title"><h2>이번 주 식단</h2><span class="note">냉장고 재료 기준</span></div>
-      <p class="plan-note">있는 재료를 먼저 쓰는 순서로 짰어요. 장보면 바뀔 수 있어요.</p>
+      <p class="plan-note">있는 재료를 먼저 쓰는 순서로 짰어요. 평일 점심은 기관·회사 식사라 비워 뒀어요.</p>
       <div class="week-list">${days}</div>`;
   }
 

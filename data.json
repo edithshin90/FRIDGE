@@ -4,90 +4,699 @@
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
   "items": [
-    { "id": "cold-fruit-01", "name": "샤인머스켓", "qty": "1.5송이", "loc": "cold", "cat": "fruit", "emoji": "🍇", "tags": ["우선 소진"], "note": "알이 떨어지기 전에 아이 간식으로" },
-    { "id": "cold-fruit-02", "name": "배", "qty": "3개", "loc": "cold", "cat": "fruit", "emoji": "🍐", "tags": ["우선 소진"] },
-    { "id": "cold-fruit-03", "name": "사과", "qty": "1개", "loc": "cold", "cat": "fruit", "emoji": "🍎", "tags": ["우선 소진"] },
-    { "id": "cold-fruit-04", "name": "귤", "qty": "2봉지 (약 15개)", "loc": "cold", "cat": "fruit", "emoji": "🍊", "tags": [] },
-    { "id": "cold-fruit-05", "name": "사과대추", "qty": "1팩", "loc": "cold", "cat": "fruit", "emoji": "🍎", "tags": ["우선 소진"] },
-    { "id": "cold-fruit-06", "name": "대추", "qty": "있음", "loc": "cold", "cat": "fruit", "emoji": "🫘", "tags": [] },
-    { "id": "cold-fruit-07", "name": "삶은밤", "qty": "있음", "loc": "cold", "cat": "fruit", "emoji": "🌰", "tags": [] },
-    { "id": "cold-fruit-08", "name": "오나오 (오버나이트 오트밀)", "qty": "2통", "loc": "cold", "cat": "fruit", "emoji": "🥣", "tags": ["우선 소진"], "note": "만든 지 얼마 안 됐으면 내일 아침에" },
-
-    { "id": "cold-veg-01", "name": "봄동", "qty": "있음", "loc": "cold", "cat": "veg", "emoji": "🥬", "tags": ["우선 소진", "임박"], "note": "겉절이 두 번 정도 분량" },
-    { "id": "cold-veg-02", "name": "배추", "qty": "2포기", "loc": "cold", "cat": "veg", "emoji": "🥬", "tags": [] },
-    { "id": "cold-veg-03", "name": "양배추", "qty": "있음", "loc": "cold", "cat": "veg", "emoji": "🥬", "tags": [] },
-    { "id": "cold-veg-04", "name": "무", "qty": "1통", "loc": "cold", "cat": "veg", "emoji": "🥬", "tags": [] },
-    { "id": "cold-veg-05", "name": "새송이버섯", "qty": "3개", "loc": "cold", "cat": "veg", "emoji": "🍄", "tags": ["우선 소진"] },
-    { "id": "cold-veg-06", "name": "표고버섯", "qty": "4개", "loc": "cold", "cat": "veg", "emoji": "🍄", "tags": ["우선 소진"] },
-    { "id": "cold-veg-07", "name": "샐러드", "qty": "5팩", "loc": "cold", "cat": "veg", "emoji": "🥗", "tags": ["우선 소진", "임박"], "note": "한 팩은 내일 저녁에" },
-    { "id": "cold-veg-08", "name": "다진마늘", "qty": "있음", "loc": "cold", "cat": "veg", "emoji": "🧄", "tags": [] },
-
-    { "id": "cold-protein-01", "name": "반숙란", "qty": "20개", "loc": "cold", "cat": "protein", "emoji": "🥚", "tags": ["우선 소진"] },
-    { "id": "cold-protein-02", "name": "계란", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🥚", "tags": [] },
-    { "id": "cold-protein-03", "name": "뽀로로 연두부", "qty": "있음", "loc": "cold", "cat": "kids", "emoji": "🍮", "tags": ["우선 소진", "임박"], "note": "유통기한 짧아요 — 내일 점심에" },
-    { "id": "cold-protein-04", "name": "다진 소고기", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🥩", "tags": ["우선 소진", "임박"], "note": "냉장 해동 상태면 오늘 안에" },
-    { "id": "cold-protein-05", "name": "명란젓", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🐟", "tags": ["우선 소진"] },
-    { "id": "cold-protein-06", "name": "우유", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🥛", "tags": ["우선 소진"] },
-    { "id": "cold-protein-07", "name": "그릭요거트", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🥛", "tags": ["우선 소진"] },
-    { "id": "cold-protein-08", "name": "모짜렐라치즈", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🧀", "tags": [] },
-    { "id": "cold-protein-09", "name": "가염버터", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🧈", "tags": [] },
-    { "id": "cold-protein-10", "name": "무염버터", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🧈", "tags": [] },
-    { "id": "cold-protein-11", "name": "기버터", "qty": "있음", "loc": "cold", "cat": "protein", "emoji": "🧈", "tags": [] },
-
-    { "id": "cold-kimchi-01", "name": "배추김치", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🥬", "tags": [] },
-    { "id": "cold-kimchi-02", "name": "백김치", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🥬", "tags": [] },
-    { "id": "cold-kimchi-03", "name": "굴김치", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🦪", "tags": [] },
-    { "id": "cold-kimchi-04", "name": "무말랭이", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🥢", "tags": [] },
-    { "id": "cold-kimchi-05", "name": "피클", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🥒", "tags": [] },
-
-    { "id": "cold-sauce-01", "name": "간장", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🧂", "tags": [] },
-    { "id": "cold-sauce-02", "name": "들기름", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🫗", "tags": [] },
-    { "id": "cold-sauce-03", "name": "저당 고추장", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌶️", "tags": [] },
-    { "id": "cold-sauce-04", "name": "까막장", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌶️", "tags": [] },
-    { "id": "cold-sauce-05", "name": "고춧가루", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌶️", "tags": [] },
-    { "id": "cold-sauce-06", "name": "발사믹식초", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🍶", "tags": [] },
-    { "id": "cold-sauce-07", "name": "오리엔탈 드레싱", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🫗", "tags": [] },
-    { "id": "cold-sauce-08", "name": "토마토소스", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🍅", "tags": [] },
-    { "id": "cold-sauce-09", "name": "딸기잼", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🍓", "tags": [] },
-    { "id": "cold-sauce-10", "name": "땅콩버터", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🥜", "tags": [] },
-    { "id": "cold-sauce-11", "name": "아몬드분말", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌰", "tags": [] },
-    { "id": "cold-sauce-12", "name": "통밀가루", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌾", "tags": [] },
-    { "id": "cold-sauce-13", "name": "잣", "qty": "있음", "loc": "cold", "cat": "kimchi", "emoji": "🌰", "tags": [] },
-    { "id": "cold-sauce-14", "name": "어린이 다시팩", "qty": "있음", "loc": "cold", "cat": "kids", "emoji": "🧂", "tags": [] },
-
-    { "id": "frozen-01", "name": "곰국", "qty": "5개 (타파통)", "loc": "frozen", "cat": "meal", "emoji": "🍲", "tags": [] },
-    { "id": "frozen-02", "name": "한돈감자탕", "qty": "있음", "loc": "frozen", "cat": "meal", "emoji": "🍲", "tags": [] },
-    { "id": "frozen-03", "name": "고추장양념육", "qty": "있음", "loc": "frozen", "cat": "meal", "emoji": "🥩", "tags": [] },
-    { "id": "frozen-04", "name": "양념갈비", "qty": "1팩", "loc": "frozen", "cat": "meal", "emoji": "🥩", "tags": [] },
-    { "id": "frozen-05", "name": "치킨가스", "qty": "있음", "loc": "frozen", "cat": "meal", "emoji": "🍗", "tags": [] },
-    { "id": "frozen-06", "name": "한끼통살 현미크리스피 오리지널", "qty": "1개", "loc": "frozen", "cat": "meal", "emoji": "🍗", "tags": [] },
-    { "id": "frozen-07", "name": "대구스테이크", "qty": "6덩이", "loc": "frozen", "cat": "meal", "emoji": "🐟", "tags": [] },
-    { "id": "frozen-08", "name": "동태살", "qty": "2덩이", "loc": "frozen", "cat": "meal", "emoji": "🐟", "tags": [] },
-    { "id": "frozen-09", "name": "간편해물모듬 6종", "qty": "600g", "loc": "frozen", "cat": "meal", "emoji": "🦐", "tags": [] },
-    { "id": "frozen-10", "name": "비비고 닭가슴살만두", "qty": "있음", "loc": "frozen", "cat": "meal", "emoji": "🥟", "tags": [] },
-    { "id": "frozen-11", "name": "대가고기짬뽕", "qty": "1인분", "loc": "frozen", "cat": "meal", "emoji": "🍜", "tags": [] },
-    { "id": "frozen-12", "name": "바로끓여먹는 마녀스프용 채소", "qty": "있음", "loc": "frozen", "cat": "veg", "emoji": "🥬", "tags": [] },
-    { "id": "frozen-13", "name": "레인보우 라이스드 베지터블", "qty": "있음", "loc": "frozen", "cat": "veg", "emoji": "🥕", "tags": [] },
-    { "id": "frozen-14", "name": "다진마늘", "qty": "있음", "loc": "frozen", "cat": "veg", "emoji": "🧄", "tags": [] },
-    { "id": "frozen-15", "name": "떡국떡", "qty": "있음", "loc": "frozen", "cat": "meal", "emoji": "🍚", "tags": [] },
-    { "id": "frozen-16", "name": "조각 모짜렐라", "qty": "있음", "loc": "frozen", "cat": "protein", "emoji": "🧀", "tags": [] },
-    { "id": "frozen-17", "name": "달콤호떡", "qty": "있음", "loc": "frozen", "cat": "kids", "emoji": "🥞", "tags": [] },
-    { "id": "frozen-18", "name": "케이준 감자치즈볼", "qty": "1봉지", "loc": "frozen", "cat": "kids", "emoji": "🧀", "tags": [] },
-    { "id": "frozen-19", "name": "백설기 소분", "qty": "6덩이", "loc": "frozen", "cat": "kids", "emoji": "🍡", "tags": [] },
-    { "id": "frozen-20", "name": "룩트 얼려먹는 젤리", "qty": "6봉지", "loc": "frozen", "cat": "kids", "emoji": "🍬", "tags": [] },
-
-    { "id": "kimchi-01", "name": "김치", "qty": "있음", "loc": "kimchi", "cat": "kimchi", "emoji": "🥬", "tags": [] },
-    { "id": "kimchi-02", "name": "황태", "qty": "있음", "loc": "kimchi", "cat": "protein", "emoji": "🐟", "tags": [] },
-    { "id": "kimchi-03", "name": "냉동 블루베리", "qty": "있음", "loc": "kimchi", "cat": "fruit", "emoji": "🫐", "tags": [] },
-    { "id": "kimchi-04", "name": "시루떡 (작은 것)", "qty": "3개", "loc": "kimchi", "cat": "kids", "emoji": "🍡", "tags": [] },
-    { "id": "kimchi-05", "name": "고춧가루", "qty": "있음", "loc": "kimchi", "cat": "kimchi", "emoji": "🌶️", "tags": [] },
-    { "id": "kimchi-06", "name": "볶은 참깨", "qty": "있음", "loc": "kimchi", "cat": "kimchi", "emoji": "🌰", "tags": [] }
+    {
+      "id": "cold-fruit-01",
+      "name": "샤인머스켓",
+      "qty": "1.5송이",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍇",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "알이 떨어지기 전에 아이 간식으로"
+    },
+    {
+      "id": "cold-fruit-02",
+      "name": "배",
+      "qty": "3개",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍐",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-fruit-03",
+      "name": "사과",
+      "qty": "1개",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍎",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-fruit-04",
+      "name": "귤",
+      "qty": "2봉지 (약 15개)",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍊",
+      "tags": []
+    },
+    {
+      "id": "cold-fruit-05",
+      "name": "사과대추",
+      "qty": "1팩",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍎",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-fruit-06",
+      "name": "대추",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🫘",
+      "tags": []
+    },
+    {
+      "id": "cold-fruit-07",
+      "name": "삶은밤",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🌰",
+      "tags": []
+    },
+    {
+      "id": "cold-fruit-08",
+      "name": "오나오 (오버나이트 오트밀)",
+      "qty": "2통",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🥣",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "만든 지 얼마 안 됐으면 내일 아침에"
+    },
+    {
+      "id": "cold-veg-01",
+      "name": "봄동",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🥬",
+      "tags": [
+        "우선 소진",
+        "임박"
+      ],
+      "note": "겉절이 두 번 분량 — 내일 저녁에 한 번"
+    },
+    {
+      "id": "cold-veg-02",
+      "name": "배추",
+      "qty": "2포기",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "cold-veg-03",
+      "name": "양배추",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "cold-veg-04",
+      "name": "무",
+      "qty": "1통",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "cold-veg-05",
+      "name": "새송이버섯",
+      "qty": "3개",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🍄",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-veg-06",
+      "name": "표고버섯",
+      "qty": "4개",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🍄",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-veg-07",
+      "name": "샐러드",
+      "qty": "5팩",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🥗",
+      "tags": [
+        "우선 소진",
+        "임박"
+      ],
+      "note": "한 팩은 내일 저녁에"
+    },
+    {
+      "id": "cold-veg-08",
+      "name": "다진마늘",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "veg",
+      "emoji": "🧄",
+      "tags": []
+    },
+    {
+      "id": "cold-protein-01",
+      "name": "반숙란",
+      "qty": "20개",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🥚",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-protein-02",
+      "name": "계란",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🥚",
+      "tags": []
+    },
+    {
+      "id": "cold-protein-03",
+      "name": "뽀로로 연두부",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kids",
+      "emoji": "🍮",
+      "tags": [
+        "우선 소진",
+        "임박"
+      ],
+      "note": "유통기한 짧아요 — 내일 저녁 아이 반찬으로"
+    },
+    {
+      "id": "cold-protein-04",
+      "name": "다진 소고기",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🥩",
+      "tags": [
+        "우선 소진",
+        "임박"
+      ],
+      "note": "냉장 해동 상태면 오늘 안에"
+    },
+    {
+      "id": "cold-protein-05",
+      "name": "명란젓",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🐟",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-protein-06",
+      "name": "우유",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🥛",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-protein-07",
+      "name": "그릭요거트",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🥛",
+      "tags": [
+        "우선 소진"
+      ]
+    },
+    {
+      "id": "cold-protein-08",
+      "name": "모짜렐라치즈",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🧀",
+      "tags": []
+    },
+    {
+      "id": "cold-protein-09",
+      "name": "가염버터",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🧈",
+      "tags": []
+    },
+    {
+      "id": "cold-protein-10",
+      "name": "무염버터",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🧈",
+      "tags": []
+    },
+    {
+      "id": "cold-protein-11",
+      "name": "기버터",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "protein",
+      "emoji": "🧈",
+      "tags": []
+    },
+    {
+      "id": "cold-kimchi-01",
+      "name": "배추김치",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "cold-kimchi-02",
+      "name": "백김치",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "cold-kimchi-03",
+      "name": "굴김치",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🦪",
+      "tags": []
+    },
+    {
+      "id": "cold-kimchi-04",
+      "name": "무말랭이",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥢",
+      "tags": []
+    },
+    {
+      "id": "cold-kimchi-05",
+      "name": "피클",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥒",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-01",
+      "name": "간장",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🧂",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-02",
+      "name": "들기름",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🫗",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-03",
+      "name": "저당 고추장",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌶️",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-04",
+      "name": "까막장",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌶️",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-05",
+      "name": "고춧가루",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌶️",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-06",
+      "name": "발사믹식초",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍶",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-07",
+      "name": "오리엔탈 드레싱",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🫗",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-08",
+      "name": "토마토소스",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍅",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-09",
+      "name": "딸기잼",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍓",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-10",
+      "name": "땅콩버터",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥜",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-11",
+      "name": "아몬드분말",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌰",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-12",
+      "name": "통밀가루",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌾",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-13",
+      "name": "잣",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🌰",
+      "tags": []
+    },
+    {
+      "id": "cold-sauce-14",
+      "name": "어린이 다시팩",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kids",
+      "emoji": "🧂",
+      "tags": []
+    },
+    {
+      "id": "frozen-01",
+      "name": "곰국",
+      "qty": "5개 (타파통)",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍲",
+      "tags": []
+    },
+    {
+      "id": "frozen-02",
+      "name": "한돈감자탕",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍲",
+      "tags": []
+    },
+    {
+      "id": "frozen-03",
+      "name": "고추장양념육",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🥩",
+      "tags": []
+    },
+    {
+      "id": "frozen-04",
+      "name": "양념갈비",
+      "qty": "1팩",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🥩",
+      "tags": []
+    },
+    {
+      "id": "frozen-05",
+      "name": "치킨가스",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍗",
+      "tags": []
+    },
+    {
+      "id": "frozen-06",
+      "name": "한끼통살 현미크리스피 오리지널",
+      "qty": "1개",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍗",
+      "tags": []
+    },
+    {
+      "id": "frozen-07",
+      "name": "대구스테이크",
+      "qty": "6덩이",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🐟",
+      "tags": []
+    },
+    {
+      "id": "frozen-08",
+      "name": "동태살",
+      "qty": "2덩이",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🐟",
+      "tags": []
+    },
+    {
+      "id": "frozen-09",
+      "name": "간편해물모듬 6종",
+      "qty": "600g",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🦐",
+      "tags": []
+    },
+    {
+      "id": "frozen-10",
+      "name": "비비고 닭가슴살만두",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🥟",
+      "tags": []
+    },
+    {
+      "id": "frozen-11",
+      "name": "대가고기짬뽕",
+      "qty": "1인분",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍜",
+      "tags": []
+    },
+    {
+      "id": "frozen-12",
+      "name": "바로끓여먹는 마녀스프용 채소",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "veg",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "frozen-13",
+      "name": "레인보우 라이스드 베지터블",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "veg",
+      "emoji": "🥕",
+      "tags": []
+    },
+    {
+      "id": "frozen-14",
+      "name": "다진마늘",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "veg",
+      "emoji": "🧄",
+      "tags": []
+    },
+    {
+      "id": "frozen-15",
+      "name": "떡국떡",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "meal",
+      "emoji": "🍚",
+      "tags": []
+    },
+    {
+      "id": "frozen-16",
+      "name": "조각 모짜렐라",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "protein",
+      "emoji": "🧀",
+      "tags": []
+    },
+    {
+      "id": "frozen-17",
+      "name": "달콤호떡",
+      "qty": "있음",
+      "loc": "frozen",
+      "cat": "kids",
+      "emoji": "🥞",
+      "tags": []
+    },
+    {
+      "id": "frozen-18",
+      "name": "케이준 감자치즈볼",
+      "qty": "1봉지",
+      "loc": "frozen",
+      "cat": "kids",
+      "emoji": "🧀",
+      "tags": []
+    },
+    {
+      "id": "frozen-19",
+      "name": "백설기 소분",
+      "qty": "6덩이",
+      "loc": "frozen",
+      "cat": "kids",
+      "emoji": "🍡",
+      "tags": []
+    },
+    {
+      "id": "frozen-20",
+      "name": "룩트 얼려먹는 젤리",
+      "qty": "6봉지",
+      "loc": "frozen",
+      "cat": "kids",
+      "emoji": "🍬",
+      "tags": []
+    },
+    {
+      "id": "kimchi-01",
+      "name": "김치",
+      "qty": "있음",
+      "loc": "kimchi",
+      "cat": "kimchi",
+      "emoji": "🥬",
+      "tags": []
+    },
+    {
+      "id": "kimchi-02",
+      "name": "황태",
+      "qty": "있음",
+      "loc": "kimchi",
+      "cat": "protein",
+      "emoji": "🐟",
+      "tags": []
+    },
+    {
+      "id": "kimchi-03",
+      "name": "냉동 블루베리",
+      "qty": "있음",
+      "loc": "kimchi",
+      "cat": "fruit",
+      "emoji": "🫐",
+      "tags": []
+    },
+    {
+      "id": "kimchi-04",
+      "name": "시루떡 (작은 것)",
+      "qty": "3개",
+      "loc": "kimchi",
+      "cat": "kids",
+      "emoji": "🍡",
+      "tags": []
+    },
+    {
+      "id": "kimchi-05",
+      "name": "고춧가루",
+      "qty": "있음",
+      "loc": "kimchi",
+      "cat": "kimchi",
+      "emoji": "🌶️",
+      "tags": []
+    },
+    {
+      "id": "kimchi-06",
+      "name": "볶은 참깨",
+      "qty": "있음",
+      "loc": "kimchi",
+      "cat": "kimchi",
+      "emoji": "🌰",
+      "tags": []
+    }
   ],
-
   "todayPlan": {
     "date": "2026-11-20",
     "label": "11/20 (금)",
-    "note": "내일은 금요일 — 아침은 5분, 저녁은 아이 몫을 먼저 덜어 내요",
+    "note": "내일은 금요일 — 아침과 저녁만 챙기면 돼요. 점심은 기관·회사에서.",
     "meals": [
       {
         "id": "breakfast",
@@ -100,9 +709,18 @@
             "whoIcon": "🧸",
             "title": "우유 오나오 & 달콤호떡",
             "menu": [
-              { "icon": "🥣", "text": "오나오 1통 + 데운 우유 200ml" },
-              { "icon": "🥞", "text": "달콤호떡 1개, 팬에 노릇하게" },
-              { "icon": "🍇", "text": "샤인머스켓 몇 알 (도현은 잘게)" }
+              {
+                "icon": "🥣",
+                "text": "오나오 1통 + 데운 우유 200ml"
+              },
+              {
+                "icon": "🥞",
+                "text": "달콤호떡 1개, 팬에 노릇하게"
+              },
+              {
+                "icon": "🍇",
+                "text": "샤인머스켓 몇 알 (도현은 잘게)"
+              }
             ],
             "time": "5분",
             "tip": "도현이는 오나오 2~3숟갈만, 호떡은 한입 크기로 잘라 주세요."
@@ -113,47 +731,21 @@
             "whoIcon": "🌿",
             "title": "반숙란 오나오 볼",
             "menu": [
-              { "icon": "🥣", "text": "오나오 1통" },
-              { "icon": "🥚", "text": "반숙란 2개 + 삶은밤 3알" },
-              { "icon": "🌰", "text": "아몬드분말 한 숟갈, 꿀 조금" }
+              {
+                "icon": "🥣",
+                "text": "오나오 1통"
+              },
+              {
+                "icon": "🥚",
+                "text": "반숙란 2개 + 삶은밤 3알"
+              },
+              {
+                "icon": "🌰",
+                "text": "아몬드분말 한 숟갈, 꿀 조금"
+              }
             ],
             "time": "5분",
             "tip": "오나오 2통이 내일로 유통기한이에요. 아이 몫과 나눠 드세요."
-          }
-        ]
-      },
-      {
-        "id": "lunch",
-        "label": "점심",
-        "icon": "☀️",
-        "cards": [
-          {
-            "id": "2026-11-20-lunch-adult",
-            "who": "은지님",
-            "whoIcon": "🌿",
-            "title": "곰국 떡국 + 봄동 겉절이",
-            "menu": [
-              { "icon": "🍲", "text": "곰국 1개(타파통) + 물 500ml" },
-              { "icon": "🍚", "text": "떡국떡 한 줌, 마지막 3분" },
-              { "icon": "🥬", "text": "봄동 4~5장 — 들기름·간장·볶은 참깨" },
-              { "icon": "🥢", "text": "무말랭이 한 접시" }
-            ],
-            "time": "15분",
-            "tip": "봄동이 임박이에요. 남으면 저녁에 겉절이로 한 번 더."
-          },
-          {
-            "id": "2026-11-20-lunch-kids",
-            "who": "도아·도현",
-            "whoIcon": "🧸",
-            "title": "연두부 계란찜 + 밥",
-            "menu": [
-              { "icon": "🍮", "text": "뽀로로 연두부 1개" },
-              { "icon": "🥚", "text": "계란 1개 풀어 넣고 전자레인지 2분" },
-              { "icon": "🍚", "text": "밥 반 공기 (도현은 3숟갈)" },
-              { "icon": "🥬", "text": "백김치 조금 (도아만)" }
-            ],
-            "time": "8분",
-            "tip": "연두부는 내일이 마지막이에요. 간장은 한 방울만."
           }
         ]
       },
@@ -168,10 +760,22 @@
             "whoIcon": "🏠",
             "title": "소고기 버섯 볶음 + 샐러드",
             "menu": [
-              { "icon": "🥩", "text": "다진 소고기 한 줌, 간장·다진마늘로 밑간" },
-              { "icon": "🍄", "text": "새송이 3개 · 표고 4개 · 양배추 채 썰어" },
-              { "icon": "🥗", "text": "샐러드 1팩 + 오리엔탈 드레싱" },
-              { "icon": "🥬", "text": "배추김치 · 무말랭이" }
+              {
+                "icon": "🥩",
+                "text": "다진 소고기 한 줌, 간장·다진마늘로 밑간"
+              },
+              {
+                "icon": "🍄",
+                "text": "새송이 3개 · 표고 4개 · 양배추 채 썰어"
+              },
+              {
+                "icon": "🥬",
+                "text": "봄동 겉절이 (임박!) — 들기름·간장·참깨"
+              },
+              {
+                "icon": "🥗",
+                "text": "샐러드 1팩 + 오리엔탈 드레싱"
+              }
             ],
             "time": "20분",
             "tip": "아이 몫은 고추장 빼고 간장만. 도현이는 잘게 다져 밥에 얹어 주세요."
@@ -182,46 +786,208 @@
             "whoIcon": "🧸",
             "title": "간장 소고기 버섯밥",
             "menu": [
-              { "icon": "🍚", "text": "볶은 소고기·버섯을 밥 위에" },
-              { "icon": "🧀", "text": "조각 모짜렐라 1~2개 올려 살짝 녹이기" },
-              { "icon": "🍊", "text": "귤 2쪽 (도현은 1쪽)" }
+              {
+                "icon": "🍚",
+                "text": "볶은 소고기·버섯을 밥 위에"
+              },
+              {
+                "icon": "🍮",
+                "text": "뽀로로 연두부 1개, 간장 한 방울"
+              },
+              {
+                "icon": "🍊",
+                "text": "귤 2쪽 (도현은 1쪽)"
+              },
+              {
+                "icon": "🥬",
+                "text": "배추김치 조금 (도아만)"
+              }
             ],
             "time": "5분",
             "tip": "어른 볶음에서 아이 몫을 먼저 덜어 내면 양념 걱정이 없어요."
           }
         ]
       }
-    ]
+    ],
+    "passNote": {
+      "after": "breakfast",
+      "icon": "🏫",
+      "title": "점심은 비워 뒀어요",
+      "text": "평일엔 도아는 기관, 어른은 회사에서 먹어요. 토·일만 점심까지 챙겨요."
+    }
   },
-
   "weekPlan": [
-    { "date": "2026-11-20", "day": "금", "today": false, "pill": "내일", "breakfast": "오나오 · 호떡", "lunch": "곰국 떡국", "dinner": "소고기 버섯 볶음" },
-    { "date": "2026-11-21", "day": "토", "today": false, "breakfast": "백설기 · 우유", "lunch": "대가고기짬뽕 (아이는 만두)", "dinner": "양념갈비 · 샐러드" },
-    { "date": "2026-11-22", "day": "일", "today": false, "breakfast": "통밀 토스트 · 계란", "lunch": "한돈감자탕", "dinner": "대구스테이크 · 라이스드 베지터블" },
-    { "date": "2026-11-23", "day": "월", "today": false, "breakfast": "오나오 · 귤", "lunch": "비비고만두 · 명란밥", "dinner": "고추장양념육 · 봄동" },
-    { "date": "2026-11-24", "day": "화", "today": false, "breakfast": "그릭요거트 · 블루베리 · 잣", "lunch": "마녀스프 · 떡국떡", "dinner": "동태살 무국 · 계란찜" },
-    { "date": "2026-11-25", "day": "수", "today": false, "breakfast": "사과 · 땅콩버터", "lunch": "간편해물모듬 · 샐러드", "dinner": "치킨가스 · 케이준 감자치즈볼" },
-    { "date": "2026-11-26", "day": "목", "today": false, "breakfast": "달콤호떡 · 우유", "lunch": "한끼통살 · 샐러드", "dinner": "배추김치 볶음밥 · 계란" }
+    {
+      "date": "2026-11-20",
+      "day": "금",
+      "today": false,
+      "pill": "내일",
+      "breakfast": "오나오 · 호떡",
+      "lunch": "기관·회사 식사",
+      "dinner": "소고기 버섯 볶음",
+      "lunchPass": true
+    },
+    {
+      "date": "2026-11-21",
+      "day": "토",
+      "today": false,
+      "breakfast": "백설기 · 우유",
+      "lunch": "대가고기짬뽕 (아이는 만두)",
+      "dinner": "양념갈비 · 샐러드"
+    },
+    {
+      "date": "2026-11-22",
+      "day": "일",
+      "today": false,
+      "breakfast": "통밀 토스트 · 계란",
+      "lunch": "한돈감자탕",
+      "dinner": "대구스테이크 · 라이스드베지터블"
+    },
+    {
+      "date": "2026-11-23",
+      "day": "월",
+      "today": false,
+      "breakfast": "오나오 · 귤",
+      "lunch": "기관·회사 식사",
+      "dinner": "곰국 떡국",
+      "lunchPass": true
+    },
+    {
+      "date": "2026-11-24",
+      "day": "화",
+      "today": false,
+      "breakfast": "그릭요거트 · 블루베리 · 잣",
+      "lunch": "기관·회사 식사",
+      "dinner": "고추장양념육 · 봄동",
+      "lunchPass": true
+    },
+    {
+      "date": "2026-11-25",
+      "day": "수",
+      "today": false,
+      "breakfast": "사과 · 땅콩버터",
+      "lunch": "기관·회사 식사",
+      "dinner": "마녀스프 · 떡국떡",
+      "lunchPass": true
+    },
+    {
+      "date": "2026-11-26",
+      "day": "목",
+      "today": false,
+      "breakfast": "달콤호떡 · 우유",
+      "lunch": "기관·회사 식사",
+      "dinner": "치킨가스 · 케이준 감자치즈볼",
+      "lunchPass": true
+    }
   ],
-
   "simpleMeals": [
-    { "id": "simple-01", "emoji": "🥟", "title": "만두 + 반숙란", "desc": "비비고 닭가슴살만두 6개 찜, 반숙란 1개 곁들여", "time": "8분", "tag": "아이도 잘 먹어요" },
-    { "id": "simple-02", "emoji": "🍜", "title": "대가고기짬뽕", "desc": "1인분 그대로 끓이고 떡국떡 조금 넣기", "time": "4분", "tag": "혼자 점심" },
-    { "id": "simple-03", "emoji": "🥬", "title": "마녀스프", "desc": "바로끓여먹는 채소 + 떡국떡, 들기름 한 방울", "time": "10분", "tag": "속 편한 한 끼" },
-    { "id": "simple-04", "emoji": "🍗", "title": "한끼통살 + 샐러드", "desc": "에어프라이어 190도 10분, 샐러드 1팩과", "time": "12분", "tag": "단백질" },
-    { "id": "simple-05", "emoji": "🍚", "title": "명란 계란밥", "desc": "밥 + 명란젓 + 계란프라이 + 들기름", "time": "7분", "tag": "5분 안쪽" },
-    { "id": "simple-06", "emoji": "🧀", "title": "케이준 감자치즈볼", "desc": "에어프라이어 180도 8분, 룩트 젤리와 함께", "time": "10분", "tag": "아이 간식" },
-    { "id": "simple-07", "emoji": "🍡", "title": "백설기 + 우유", "desc": "백설기 2덩이 데워서 우유와, 냉동 블루베리 올려", "time": "3분", "tag": "아침 대용" },
-    { "id": "simple-08", "emoji": "🥞", "title": "호떡 + 귤", "desc": "달콤호떡 노릇하게, 귤 두 쪽", "time": "5분", "tag": "오후 간식" }
+    {
+      "id": "simple-01",
+      "emoji": "🥟",
+      "title": "만두 + 반숙란",
+      "desc": "비비고 닭가슴살만두 6개 찜, 반숙란 1개 곁들여",
+      "time": "8분",
+      "tag": "아이도 잘 먹어요"
+    },
+    {
+      "id": "simple-02",
+      "emoji": "🍜",
+      "title": "대가고기짬뽕",
+      "desc": "1인분 그대로 끓이고 떡국떡 조금 넣기",
+      "time": "4분",
+      "tag": "혼자 먹을 때"
+    },
+    {
+      "id": "simple-03",
+      "emoji": "🥬",
+      "title": "마녀스프",
+      "desc": "바로끓여먹는 채소 + 떡국떡, 들기름 한 방울",
+      "time": "10분",
+      "tag": "속 편한 한 끼"
+    },
+    {
+      "id": "simple-04",
+      "emoji": "🍗",
+      "title": "한끼통살 + 샐러드",
+      "desc": "에어프라이어 190도 10분, 샐러드 1팩과",
+      "time": "12분",
+      "tag": "단백질"
+    },
+    {
+      "id": "simple-05",
+      "emoji": "🍚",
+      "title": "명란 계란밥",
+      "desc": "밥 + 명란젓 + 계란프라이 + 들기름",
+      "time": "7분",
+      "tag": "5분 안쪽"
+    },
+    {
+      "id": "simple-06",
+      "emoji": "🧀",
+      "title": "케이준 감자치즈볼",
+      "desc": "에어프라이어 180도 8분, 룩트 젤리와 함께",
+      "time": "10분",
+      "tag": "아이 간식"
+    },
+    {
+      "id": "simple-07",
+      "emoji": "🍡",
+      "title": "백설기 + 우유",
+      "desc": "백설기 2덩이 데워서 우유와, 냉동 블루베리 올려",
+      "time": "3분",
+      "tag": "아침 대용"
+    },
+    {
+      "id": "simple-08",
+      "emoji": "🥞",
+      "title": "호떡 + 귤",
+      "desc": "달콤호떡 노릇하게, 귤 두 쪽",
+      "time": "5분",
+      "tag": "오후 간식"
+    }
   ],
-
   "shopping": [
-    { "id": "shop-01", "name": "대파", "qty": "1단", "reason": "볶음·국 간수 (지금 없어요)" },
-    { "id": "shop-02", "name": "양파", "qty": "1망", "reason": "소고기 볶음·스프에" },
-    { "id": "shop-03", "name": "김", "qty": "1봉", "reason": "아이 반찬·주먹밥용" },
-    { "id": "shop-04", "name": "우유", "qty": "1팩 (여유분)", "reason": "아침 오나오·간식" },
-    { "id": "shop-05", "name": "통밀 식빵", "qty": "1봉", "reason": "11/22 아침 토스트" },
-    { "id": "shop-06", "name": "다진 돼지고기", "qty": "300g", "reason": "김치찌개·볶음밥용" },
-    { "id": "shop-07", "name": "바나나", "qty": "1송이", "reason": "아이 간식 (과일이 금방 없어요)" }
+    {
+      "id": "shop-01",
+      "name": "대파",
+      "qty": "1단",
+      "reason": "볶음·국 간수 (지금 없어요)"
+    },
+    {
+      "id": "shop-02",
+      "name": "양파",
+      "qty": "1망",
+      "reason": "소고기 볶음·스프에"
+    },
+    {
+      "id": "shop-03",
+      "name": "김",
+      "qty": "1봉",
+      "reason": "아이 반찬·주먹밥용"
+    },
+    {
+      "id": "shop-04",
+      "name": "우유",
+      "qty": "1팩 (여유분)",
+      "reason": "아침 오나오·간식"
+    },
+    {
+      "id": "shop-05",
+      "name": "통밀 식빵",
+      "qty": "1봉",
+      "reason": "11/22 아침 토스트"
+    },
+    {
+      "id": "shop-06",
+      "name": "다진 돼지고기",
+      "qty": "300g",
+      "reason": "김치찌개·볶음밥용"
+    },
+    {
+      "id": "shop-07",
+      "name": "바나나",
+      "qty": "1송이",
+      "reason": "아이 간식 (과일이 금방 없어요)"
+    }
   ]
 }
