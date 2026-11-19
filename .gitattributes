@@ -1,0 +1,3 @@
+data.json -text
+diff --git a/data.json b/data.json
+*.json text eol=lf
