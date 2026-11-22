@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:00:00+09:00",
+  "updatedAt": "2026-11-22T21:45:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -87,6 +87,19 @@
         "우선 소진"
       ],
       "note": "만든 지 얼마 안 됐으면 내일 아침에"
+    },
+    {
+      "id": "cold-fruit-09",
+      "name": "창억떡",
+      "qty": "1팩",
+      "loc": "cold",
+      "cat": "fruit",
+      "emoji": "🍡",
+      "tags": [
+        "우선 소진",
+        "임박"
+      ],
+      "note": "내일 아침에 오나오랑 같이 먼저 소진"
     },
     {
       "id": "cold-veg-01",
@@ -845,7 +858,7 @@
       "date": "2026-11-23",
       "day": "월",
       "today": false,
-      "breakfast": "오나오 · 귤",
+      "breakfast": "창억떡 · 오나오 · 우유",
       "lunch": "기관·회사 식사",
       "dinner": "곰국 떡국",
       "lunchPass": true
