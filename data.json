@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T06:30:00+09:00",
+  "updatedAt": "2026-11-23T09:40:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -7,7 +7,7 @@
     {
       "id": "cold-fruit-01",
       "name": "샤인머스켓",
-      "qty": "1송이",
+      "qty": "0.5송이",
       "loc": "cold",
       "cat": "fruit",
       "emoji": "🍇",
@@ -79,27 +79,14 @@
     {
       "id": "cold-fruit-08",
       "name": "오나오 (오버나이트 오트밀)",
-      "qty": "1통",
+      "qty": "0.5통",
       "loc": "cold",
       "cat": "fruit",
       "emoji": "🥣",
       "tags": [
         "우선 소진"
       ],
-      "note": "만든 지 얼마 안 됐으면 내일 아침에"
-    },
-    {
-      "id": "cold-fruit-09",
-      "name": "창억떡",
-      "qty": "1팩",
-      "loc": "cold",
-      "cat": "fruit",
-      "emoji": "🍡",
-      "tags": [
-        "우선 소진",
-        "임박"
-      ],
-      "note": "내일 아침에 오나오랑 같이 먼저 소진"
+      "note": "반 통 남음 — 내일 아침이나 간식으로"
     },
     {
       "id": "cold-veg-01",
