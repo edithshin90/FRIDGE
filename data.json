@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:50:00+09:00",
+  "updatedAt": "2026-11-24T17:13:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -100,11 +100,13 @@
     {
       "id": "cold-veg-03",
       "name": "양배추",
-      "qty": "있음",
+      "qty": "약 100g (한 주먹)",
       "loc": "cold",
       "cat": "veg",
       "emoji": "🥬",
-      "tags": []
+      "tags": [
+        "우선 소진"
+      ]
     },
     {
       "id": "cold-veg-04",
@@ -118,7 +120,7 @@
     {
       "id": "cold-veg-05",
       "name": "새송이버섯",
-      "qty": "3개",
+      "qty": "2개",
       "loc": "cold",
       "cat": "veg",
       "emoji": "🍄",
