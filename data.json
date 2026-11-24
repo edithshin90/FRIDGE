@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:38:00+09:00",
+  "updatedAt": "2026-11-24T19:40:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -240,6 +240,18 @@
       "cat": "protein",
       "emoji": "🧈",
       "tags": []
+    },
+    {
+      "id": "cold-dish-00",
+      "name": "전복죽",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥣",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "선물 받은 전복죽 — 내일 11/25 아침"
     },
     {
       "id": "cold-dish-01",
@@ -825,18 +837,18 @@
       "date": "2026-11-25",
       "day": "수",
       "today": false,
-      "breakfast": "사과 · 땅콩버터",
+      "breakfast": "전복죽 · 반숙란 · 백김치",
       "lunch": "기관·회사 식사",
-      "dinner": "마녀스프 · 떡국떡",
+      "dinner": "소고기 무국 · 무볶음 · 대구스테이크 · 샐러드",
       "lunchPass": true
     },
     {
       "date": "2026-11-26",
       "day": "목",
       "today": false,
-      "breakfast": "시루떡 · 우유",
+      "breakfast": "소고기 계란볶음 · 봄동 미소된장국",
       "lunch": "기관·회사 식사",
-      "dinner": "치킨가스 · 케이준 감자치즈볼",
+      "dinner": "버섯 양배추 그라탕 · 치킨가스 · 뽀로로 연두부",
       "lunchPass": true
     }
   ],
