@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T17:13:00+09:00",
+  "updatedAt": "2026-11-24T19:38:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -111,33 +111,11 @@
     {
       "id": "cold-veg-04",
       "name": "무",
-      "qty": "1통",
+      "qty": "0.5통",
       "loc": "cold",
       "cat": "veg",
       "emoji": "🥬",
       "tags": []
-    },
-    {
-      "id": "cold-veg-05",
-      "name": "새송이버섯",
-      "qty": "2개",
-      "loc": "cold",
-      "cat": "veg",
-      "emoji": "🍄",
-      "tags": [
-        "우선 소진"
-      ]
-    },
-    {
-      "id": "cold-veg-06",
-      "name": "표고버섯",
-      "qty": "2개",
-      "loc": "cold",
-      "cat": "veg",
-      "emoji": "🍄",
-      "tags": [
-        "우선 소진"
-      ]
     },
     {
       "id": "cold-veg-07",
@@ -193,19 +171,6 @@
         "임박"
       ],
       "note": "유통기한 짧아요 — 내일 저녁 아이 반찬으로"
-    },
-    {
-      "id": "cold-protein-04",
-      "name": "다진 소고기",
-      "qty": "있음",
-      "loc": "cold",
-      "cat": "protein",
-      "emoji": "🥩",
-      "tags": [
-        "우선 소진",
-        "임박"
-      ],
-      "note": "냉장 해동 상태면 오늘 안에"
     },
     {
       "id": "cold-protein-05",
@@ -275,6 +240,66 @@
       "cat": "protein",
       "emoji": "🧈",
       "tags": []
+    },
+    {
+      "id": "cold-dish-01",
+      "name": "봄동 미소된장국",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍲",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "11/24 만든 국"
+    },
+    {
+      "id": "cold-dish-02",
+      "name": "버섯 양배추 그라탕",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🧀",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "11/24 만든 반찬"
+    },
+    {
+      "id": "cold-dish-03",
+      "name": "소고기 무국",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍲",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "11/24 만든 국"
+    },
+    {
+      "id": "cold-dish-04",
+      "name": "무볶음",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🥢",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "11/24 만든 반찬"
+    },
+    {
+      "id": "cold-dish-05",
+      "name": "소고기 계란볶음",
+      "qty": "있음",
+      "loc": "cold",
+      "cat": "kimchi",
+      "emoji": "🍳",
+      "tags": [
+        "우선 소진"
+      ],
+      "note": "11/24 만든 반찬"
     },
     {
       "id": "cold-kimchi-01",
