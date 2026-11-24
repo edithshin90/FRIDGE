@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:48:00+09:00",
+  "updatedAt": "2026-11-24T16:50:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -467,15 +467,6 @@
       "id": "frozen-03",
       "name": "고추장양념육",
       "qty": "있음",
-      "loc": "frozen",
-      "cat": "meal",
-      "emoji": "🥩",
-      "tags": []
-    },
-    {
-      "id": "frozen-04",
-      "name": "양념갈비",
-      "qty": "1팩",
       "loc": "frozen",
       "cat": "meal",
       "emoji": "🥩",
