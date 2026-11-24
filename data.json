@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:40:00+09:00",
+  "updatedAt": "2026-11-24T19:43:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -158,19 +158,6 @@
       "cat": "protein",
       "emoji": "🥚",
       "tags": []
-    },
-    {
-      "id": "cold-protein-03",
-      "name": "뽀로로 연두부",
-      "qty": "있음",
-      "loc": "cold",
-      "cat": "kids",
-      "emoji": "🍮",
-      "tags": [
-        "우선 소진",
-        "임박"
-      ],
-      "note": "유통기한 짧아요 — 내일 저녁 아이 반찬으로"
     },
     {
       "id": "cold-protein-05",
@@ -848,7 +835,7 @@
       "today": false,
       "breakfast": "소고기 계란볶음 · 봄동 미소된장국",
       "lunch": "기관·회사 식사",
-      "dinner": "버섯 양배추 그라탕 · 치킨가스 · 뽀로로 연두부",
+      "dinner": "버섯 양배추 그라탕 · 치킨가스 · 백김치",
       "lunchPass": true
     }
   ],
