@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T17:01:00+09:00",
+  "updatedAt": "2026-11-25T17:06:00+09:00",
   "source": "kitchen/fridge.md",
   "title": "은지님네 냉장고",
   "subtitle": "냉장실 · 냉동실 · 김치냉장고 재료를 한 번에 볼 수 있어요",
@@ -23,17 +23,6 @@
       "loc": "cold",
       "cat": "fruit",
       "emoji": "🍐",
-      "tags": [
-        "우선 소진"
-      ]
-    },
-    {
-      "id": "cold-fruit-03",
-      "name": "사과",
-      "qty": "1개",
-      "loc": "cold",
-      "cat": "fruit",
-      "emoji": "🍎",
       "tags": [
         "우선 소진"
       ]
@@ -75,18 +64,6 @@
       "cat": "fruit",
       "emoji": "🌰",
       "tags": []
-    },
-    {
-      "id": "cold-fruit-08",
-      "name": "오나오 (오버나이트 오트밀)",
-      "qty": "0.5통",
-      "loc": "cold",
-      "cat": "fruit",
-      "emoji": "🥣",
-      "tags": [
-        "우선 소진"
-      ],
-      "note": "반 통 남음 — 내일 아침이나 간식으로"
     },
     {
       "id": "cold-veg-02",
@@ -231,14 +208,14 @@
     {
       "id": "cold-dish-00",
       "name": "전복죽",
-      "qty": "있음",
+      "qty": "1통",
       "loc": "cold",
       "cat": "kimchi",
       "emoji": "🥣",
       "tags": [
         "우선 소진"
       ],
-      "note": "선물 받은 전복죽 — 내일 11/25 아침"
+      "note": "선물 받은 전복죽 2통 중 1통 남음"
     },
     {
       "id": "cold-dish-01",
